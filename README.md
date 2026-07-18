@@ -1,17 +1,35 @@
-# mini_katalog
+# GlowUp - Mini Katalog Uygulaması
 
-A new Flutter project.
+Flutter ile geliştirilmiş, kozmetik ürünleri sergileyen bir mini katalog mobil uygulaması.
 
-## Getting Started
+## Proje Açıklaması
 
-This project is a starting point for a Flutter application.
+GlowUp, kullanıcıların kozmetik ürünlerini kategori bazında inceleyebildiği, favorilerine ekleyebildiği, sepete ürün ekleyip sipariş simülasyonu yapabildiği bir Flutter uygulamasıdır. Uygulama; ürün listeleme, detay sayfası, sepet, favoriler ve profil ekranlarından oluşmaktadır.
 
-A few resources to get you started if this is your first Flutter project:
+## Özellikler
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- 101 ürün, 7 kategori (Dudak, Göz, Yüz, Cilt Bakımı, Parfüm, Saç Bakımı, Vücut Bakımı)
+- Arama ve kategori filtreleme
+- Ürün detay sayfası (açıklama, yıldız puanı, yorumlar, adet seçimi)
+- Sepet sistemi (adet artırma/azaltma, toplam tutar, ödeme simülasyonu)
+- Favoriler sayfası
+- Profil sayfası
+- Splash screen (açılış animasyonu)
+- Sayfa geçişlerinde fade/slide animasyonları
+- Named Routes ve Route Arguments kullanımı
+- JSON model yapısı (fromJson / toJson)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Kullanılan Flutter Sürümü
+
+Flutter 3.44.6 (stable channel)
+
+## Kullanılan Araçlar
+
+- Flutter SDK
+- Dart
+- Visual Studio Code
+- Android Studio (Emulator için)
+
+## Projeyi Çalıştırma Adımları
+
+1. Bu repository'i klonlayın:
