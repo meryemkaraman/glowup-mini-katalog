@@ -33,3 +33,9 @@ Flutter 3.44.6 (stable channel)
 ## Projeyi Çalıştırma Adımları
 
 1. Bu repository'i klonlayın:
+2. Proje klasörüne girin:
+   cd glowup-mini-katalog
+3. Gerekli paketleri yükleyin:
+   flutter pub get
+4. Bir emülatör açın (Android Studio üzerinden) veya bir cihaz bağlayın, ardından uygulamayı çalıştırın:
+   flutter run
